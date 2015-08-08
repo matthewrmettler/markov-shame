@@ -8,7 +8,7 @@ def add_to_dictionary(file):
     global dict
     with open(file, 'r') as f:
         text = f.read().lower()
-        text = re.sub('[^a-z\ \']+', " ", text)
+        text = re.sub(ur"[^\w\d'\s]+", " ", text)
         words = list(text.split())
         for i in range(len(words)-2):
             key = str(words[i] + " " + words[i+1])
