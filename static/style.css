@@ -1,0 +1,95 @@
+/*!
+ * Start Bootstrap - Full HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+.full {
+    background: url('background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: #ccbbbb;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, .00);
+    margin: 200px auto;
+}
+
+.content {
+    background-color: rgba(153, 68, 34, 0.75);
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.btn {
+    border-radius: 6px;
+    border: 0;
+    color: #ccbbbb;
+    font-size: 14px;
+    background: #667799;
+    margin: 5px 5px;
+    padding: 5px 25px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #4466bb;
+    text-decoration: none;
+}
+
+.input {
+    margin: 10px 5px;
+    padding: 5px 10px;
+    text-align: center;
+    background-color: rgba(68, 68, 85, 0.35);
+    border-radius: 2px;
+    border: 0;
+    color: #BBBBDD;
+}
+
+label > input{ /* HIDE RADIO */
+  display:none;
+}
+label > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+label > input:checked + img{ /* (CHECKED) IMAGE STYLES */
+  border:1px solid #fff;
+}
+
+label {
+    padding: 5px
+}
+.label {
+    margin: 5px 5px;
+}
+
+.pol_row {
+    padding: 5px 5px;
+    margin: 1px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.pol_image {
+    max-width: 75px;
+    max-height: 75px;
+    display: inline;
+}
+.warning {
+    padding: 5px 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.notice {
+    padding: 5px 5px;
+    text-align: center;
+    font-style: italic;
+    font-size: 11px;
+}
+
