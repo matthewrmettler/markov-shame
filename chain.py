@@ -31,6 +31,7 @@ def generate_chain(length):
         sentence += " " + rphrase
         rkey = str(rkey.split(' ')[-1] + " " + rphrase)
     #print(sentence)
+    sentence = sentence[0].upper() + sentence[1:] + random.choice(['!', '.', '?', '...'])
     return sentence
 
 def getChainForPolitician(pol):
